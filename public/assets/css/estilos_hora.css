@@ -1,0 +1,25 @@
+.contenedor-hora{
+    position:relative;
+    overflow-y:scroll;
+    height: 150px;
+}
+.contenedor-hora ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.contenedor-hora ul li button{
+    width: 50%;
+    height: 100%;
+    border:none;
+    background-color: #1A2537;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    cursor: pointer;
+}
+.contenedor-hora ul li button:hover{
+    background-color: #21B2F8;
+}
+#hora{
+    display:none;
+}
